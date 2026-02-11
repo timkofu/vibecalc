@@ -1,0 +1,5 @@
+- Create a 3D caculator in C. 
+- Support only addition, subtraction, multiplication, division and modulus.
+- Use bare munimum dependancies on Ubuntu 24.04 with GCC 13 or LLVM 21. Chose the best compiler for your task.
+- Make nice anumations for launching the app, operations and closing.
+- Use a dark color theme.
