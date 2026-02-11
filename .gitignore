@@ -1,2 +1,5 @@
 raylib_build
 vibecalc
+obj/
+*.o
+.DS_Store

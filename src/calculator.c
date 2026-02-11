@@ -17,18 +17,14 @@ double multiply(double a, double b) {
 
 double divide(double a, double b) {
     if (b == 0) {
-        fprintf(stderr, "Error: Division by zero!\n");
-        // In a real application, you might want to return a special value (e.g., NaN)
-        // or set an error flag instead of exiting. For this exercise, we'll exit.
-        exit(1);
+        return NAN;
     }
     return a / b;
 }
 
 double modulus(double a, double b) {
     if (b == 0) {
-        fprintf(stderr, "Error: Modulus by zero!\n");
-        exit(1);
+        return NAN;
     }
     return fmod(a, b);
 }
